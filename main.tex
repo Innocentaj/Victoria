@@ -1,0 +1,74 @@
+\documentclass[a4paper,12pt]{report}
+\usepackage[utf8]{inputenc}
+
+%\usepackage[backend=biber,style=alphabetic,sorting=ynt]{biblatex}
+ %\addbibresource{References}
+ \date{ }
+
+\usepackage[sectionbib]{chapterbib}
+\setlength{\parindent}{0em}
+\usepackage{graphicx}
+\usepackage[margin=2 cm]{geometry}
+\usepackage{gensymb}
+\usepackage{textcomp}
+%\usepackage[version=3]{mhchem}
+%\usepackage{chemmacros}
+\usepackage{float}
+\usepackage{siunitx}
+\setlength{\parskip}{1em}
+%\usepackage{indentfirst}
+%\usepackage[LGRgreek]{mathastext}
+%\usepackage{amsthm}
+\usepackage{url}
+\usepackage[strings]{underscore}
+\usepackage{setspace}
+\usepackage[sectionbib]{chapterbib}
+%\usepackage[sectionbib]{chapterbib}
+\renewcommand{\bibname}{References}
+\graphicspath{{images/}}
+\usepackage{fancyhdr}
+
+\title{Interface interaction of}
+\author{A.J. Innocent}
+\date{August 2019}
+
+\pagestyle{fancy}
+\fancyhf{}
+%\rhead{Overleaf}
+%\lhead{Guides and tutorials}
+\rfoot{Page\thepage}
+\begin{document}
+
+\maketitle
+
+
+
+
+
+\include{Frontmatter/titlepage}
+\pagenumbering{roman}
+\include{Frontmatter/Abstract}
+\doublespacing
+\newpage
+\include{Frontmatter/Dedication}
+\newpage
+\include{Frontmatter/Declaration}
+\newpage
+\include{Frontmatter/Acknowlegements}
+\tableofcontents
+\listoffigures
+\listoftables
+\newpage
+\pagenumbering{arabic}
+%\bibliographystyle{unsrt}
+%\bibliography{mybib}
+\include{Ch1/Ch1}
+%\input{Ch2.tex}
+%\input{Ch3.tex}
+%\input{Ch4.tex}
+%\input{Ch5.tex}
+%\input{Ch6.tex}
+%input{Ch7.tex}
+
+\end{document}
+
